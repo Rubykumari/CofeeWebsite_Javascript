@@ -6,3 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --site-max-width: 1300px;
+    --border-redius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+}
