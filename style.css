@@ -1,14 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
-*{
+* {
     font-family: sans-serif, "Poppins";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
+    /* color */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: #3b141c;
+    --secondary-color: #f3961c;
+    --light-pink-color: #faf4f5;
+    --medium-grey-color: #ccc;
+    /* font-size */
+    --font_size_xs: 0.9rem;
+    --font_size_s: 1rem;
+    --font_size_m: 1.12rem;
+    --font_size_l: 1.5rem;
+    --font_size_xl: 2rem;
+    --font_size_xxl: 2.3rem;
+    /* font-weight */
+    --font_weight_normal: 400;
+    --font_weight_medium: 500;
+    --font_weight_semibold: 600;
+    --font_weight_bold: 700;
+    /* border-radius*/
+    --border_radius_s: 8px;
+    --border_radius_m: 30;
+    --border_radius_circle: 50%;
+    /* site max width */
     --site-max-width: 1300px;
     --border-redius-s: 8px;
     --border-radius-m: 30px;
     --border-radius-circle: 50%;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+img{
+    width: 100%;
+}
+/* Navbar Styling */
+header{
+    background: var(--primary-color);
+}
+.navLink{
+    color: var(--white-color);
+}
+.logoText{
+    color: var(--white-color);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
